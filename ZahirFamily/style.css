@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #222;
+  padding: 20px;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.member {
+  background: #1c1c1c;
+  border-radius: 12px;
+  margin: 15px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 0 10px #333;
+}
+
+.member img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1e90ff;
+  text-decoration: none;
+}
